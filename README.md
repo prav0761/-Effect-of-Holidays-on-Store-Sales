@@ -2,7 +2,11 @@
 
 
 
-This repository contains a code implementation of Bayesian inference to predict sales of Walmart stores. The code is written in Python and uses PyMC3 library for the implementation of Bayesian models.
+Repository Structure
+--------------------
+
+    |- Analysis_Pyspark.ipynb          # Main Notebook for analysis and modeling
+    |- Sales_PowerBI_report.pdf # Plots from Power BI Software
 
 # Dependencies
 The following dependencies are required to run the code:
@@ -12,16 +16,11 @@ Numpy
 Pandas
 
 
-# File descriptions
-walmart_sales.ipynb: Jupyter Notebook containing the code implementation of Bayesian inference for Walmart sales prediction.
-train.csv: Data file containing the training data for Walmart sales prediction.
-test.csv: Data file containing the test data for evaluating the performance of the model.
 
+## Goal
 
-# Usage
-To run the code, open the Jupyter Notebook walmart_sales.ipynb and run the cells in the order they appear. The code will perform the following steps:
-Load the training and test data.
-Preprocess the data for missing values, outliers and convert variables to appropriate data types.
-Train a Bayesian linear regression model using PyMC3.
-Make predictions on the test data and evaluate the performance of the model using mean absolute error.
+he project was to find out which holidays affected the sales most in given stores data which identify Christmas and Thanksgiving. I used basic data processing, data visualization, and data cleaning to remove bad values and I used Power BI for a few visualizations.
+
+So this project aims to produce insights into the impact of holidays on sales which can be used in the future to improve sales
+
 
