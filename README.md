@@ -1,4 +1,5 @@
-# Walmart Sales Bayesian Inference
+# Effect-of-Holidays-on-Store-Sales
+
 
 
 This repository contains a code implementation of Bayesian inference to predict sales of Walmart stores. The code is written in Python and uses PyMC3 library for the implementation of Bayesian models.
